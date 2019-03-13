@@ -1,4 +1,4 @@
-# 简单构建 apk
+# 生成签名及手动打包 apk
 
 打包 就是生成 apk 文件，有了apk文件 Android 系统手机就可以安装使用。打包分 debug 和 release 版本，应用市场的是 release 版本 
 
