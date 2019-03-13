@@ -34,7 +34,8 @@ java.lang.RuntimeException: Unable to instantiate application com.xx.xx java.lan
 查阅后得知：对于dex 的--multi-dex 选项设置与预编译的library工程有冲突,如果你的应用中包含引用的lirary工程,需要将预编译设置为false:
 在 build.gradle中添加
 dexOptions{
-preDexLibraries = false
+        javaMaxHeapSize "4g" //specify the heap size for the dex process
+        preDexLibraries = false //delete the already predexed libraries
 }
 
 再次编译打包后，测试在4.4系统上完美运行！
