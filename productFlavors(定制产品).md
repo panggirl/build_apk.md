@@ -62,6 +62,7 @@ dependencies {
 
 ### flavor dimension及上面所述可以参考入下
 [Android Studio 和Gradle Plugin 3.0 迁移不完全指南](https://zhuanlan.zhihu.com/p/30722989)
+
 [Android Gradle 使用教程](https://www.jianshu.com/p/e83baf81c57a)
 
 
