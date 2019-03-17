@@ -1,6 +1,8 @@
 # productFlavors(定制产品)
 `MAC AS 3.3`
-如果你正在查阅build.gradle文件的所有可选项，请点击这里进行查阅：[Android Plugin DSL参考](http://google.github.io/android-gradle-dsl/current/)
+如果你正在查阅build.gradle文件的所有可选项，请点击这里进行查阅：
+[Android Plugin DSL参考](http://google.github.io/android-gradle-dsl/current/)
+
 [gradle documentation](https://docs.gradle.org/current/userguide/java_plugin.html#N12394)
 
 Build Type + Product Flavor = Build Variant
